@@ -15,7 +15,7 @@ namespace AspNetCoreWebApp.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return Content("Hello Nadia Akter"); // Updated welcome message
         }
 
         public IActionResult Privacy()
